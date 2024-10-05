@@ -1,0 +1,27 @@
+@media(min-width: 80em){
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+}
+@media(max-width: 40em){
+    main div{
+       
+        height: auto;
+        width: auto;
+    }
+    .imgDim{
+        height: 300px;
+        width: 300px;
+    }
+}
+div{
+    border: 3px solid rgba(165, 42, 42, 0.204);
+    padding: 20px;
+    width: 600px;
+}
+#pret{
+    width: 400px;
+}
